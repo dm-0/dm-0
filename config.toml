@@ -1,0 +1,16 @@
+baseURL = 'https://damo.net.nz/'
+languageCode = 'en-nz'
+title = 'Dm-0'
+theme = 'solar-theme-hugo'
+paginate = 5
+pygmentsStyle = "solarized-dark"
+copyright = "(C) 2022 Damian"
+
+[params]
+  scheme = "preference" # light, dark, gray or preference
+  description = "Bits and Bytes"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/index.xml"

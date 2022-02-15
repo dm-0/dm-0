@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    container_name: dm-0
+    command: server -D
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
+    restart: unless-stopped
